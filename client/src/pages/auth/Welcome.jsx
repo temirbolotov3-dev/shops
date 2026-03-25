@@ -1,12 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 const Welcome = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-[#f5f5f5] px-4 py-6 font-sans">
-      <div className="mx-auto flex min-h-[94vh] max-w-[430px] flex-col rounded-[42px] bg-[#f7f7f7] px-4 pb-5 pt-4 shadow-[0_10px_40px_rgba(0,0,0,0.06)]">
+    <div className="min-h-screen bg-[#f2f2f2] flex items-center justify-center font-sans">
+      <div className="flex w-[390px] h-[844px] flex-col rounded-[44px] bg-[#f7f7f7] px-5 pb-6 pt-5 shadow-[0_18px_35px_rgba(0,0,0,0.25)]">
         <div className="mb-4 flex justify-center">
           <div className="h-8 w-28 rounded-full bg-black" />
         </div>
@@ -19,8 +20,8 @@ const Welcome = () => {
           />
         </div>
 
-        <div className="px-5 pt-8 text-center">
-          <h1 className="mb-4 text-[28px] font-extrabold leading-tight tracking-[-0.6px] text-[#222]">
+        <div className="px-5 pt-8 text-center mt-2">
+          <h1 className="mb-4 text-[30px] font-extrabold leading-tight tracking-[-0.6px] text-[#222]">
             Find Your
             <br />
             Best Style

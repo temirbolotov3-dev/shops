@@ -124,7 +124,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#f5f5f5] px-4 py-5 font-sans">
+    <div className="min-h-screen bg-[#f2f2f2] flex items-center justify-center">
       <AuthToast
         show={toast.show}
         message={toast.message}
@@ -132,7 +132,7 @@ const SignUp = () => {
         onClose={() => setToast((prev) => ({ ...prev, show: false }))}
       />
 
-      <div className="mx-auto flex min-h-[94vh] max-w-[430px] flex-col rounded-[42px] bg-[#f7f7f7] px-5 pb-5 pt-4 shadow-[0_10px_40px_rgba(0,0,0,0.06)]">
+      <div className="flex w-[390px] h-[844px] flex-col rounded-[44px] bg-[#f7f7f7] px-5 pb-6 pt-5 shadow-[0_18px_35px_rgba(0,0,0,0.25)]">
         <div className="mb-4 flex justify-center">
           <div className="h-8 w-28 rounded-full bg-black" />
         </div>
